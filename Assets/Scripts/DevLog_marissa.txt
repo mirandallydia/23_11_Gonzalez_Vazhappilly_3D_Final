@@ -7,4 +7,12 @@
 SESH 1 
 11/09/23
 --
+BIRDS EYE
+    - Brief: The player moves between two rooms, with slight changes in each room
+    with each passage through the space. This is a horror game - the player should
+    spend the game in an ever escalating sense of unease.
 
+MARISSA 'S TASKS
+    -
+
+MIRANDA'S TASKS
