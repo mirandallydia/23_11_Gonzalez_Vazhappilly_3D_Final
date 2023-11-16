@@ -404,10 +404,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 453903843651862951, guid: 3a35431d64446844397a6fc817f62d34,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2164146492315929398, guid: 3a35431d64446844397a6fc817f62d34,
         type: 3}
       propertyPath: m_Name
       value: PauseMenuCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659224296779972169, guid: 3a35431d64446844397a6fc817f62d34,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -85
       objectReference: {fileID: 0}
     - target: {fileID: 8316966150097706738, guid: 3a35431d64446844397a6fc817f62d34,
         type: 3}
@@ -510,7 +520,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7685343240274448602, guid: 3a35431d64446844397a6fc817f62d34, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a35431d64446844397a6fc817f62d34, type: 3}
