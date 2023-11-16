@@ -1,6 +1,5 @@
 {
     "m_Dictionary": {
-<<<<<<< HEAD
         "m_DictionaryValues": [
             {
                 "type": "UnityEngine.ProBuilder.LogLevel, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -198,8 +197,5 @@
                 "value": "{\"m_Value\":0.5}"
             }
         ]
-=======
-        "m_DictionaryValues": []
->>>>>>> 0f6689404d3cd30947faf34c2da69f30258930ea
     }
 }
