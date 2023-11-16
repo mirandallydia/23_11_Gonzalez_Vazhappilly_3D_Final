@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+   
 
     // Update is called once per frame
     void Update()
@@ -23,6 +25,7 @@ public class PauseMenu : MonoBehaviour
                 Pause();
             }
         }
+
     }
 
     void Resume() 
