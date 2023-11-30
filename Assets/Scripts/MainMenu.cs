@@ -14,5 +14,18 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Quit");
+
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape)) 
+        {
+            Application.Quit();
+            Debug.Log("Quit");
+
+
+        }
+
     }
 }
