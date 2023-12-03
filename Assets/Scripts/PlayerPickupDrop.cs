@@ -7,25 +7,32 @@ public class PlayerPickupDrop : MonoBehaviour
     [SerializeField] private Transform playerCameraTransform;
     [SerializeField] private Transform objectGrabPointTransform;
     [SerializeField] private LayerMask pickUpLayerMask;
-    // Update is called once per frame
+
+    private ObjectGrabbable objectGrabbable;
      private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
 
-            
+            if (objectGrabbable == null)
+            {
                 // Not carrying an object, try to grab
                 float pickUpDistance = 4f;
                 if (Physics.Raycast(playerCameraTransform.position, playerCameraTransform.forward, out RaycastHit raycastHit, pickUpDistance, pickUpLayerMask))
                 {
-                    if (raycastHit.transform.TryGetComponent(out ObjectGrabbable objectGrabbable))
+                    if (raycastHit.transform.TryGetComponent(out objectGrabbable))
                     {
                         objectGrabbable.Grab(objectGrabPointTransform);
-                        Debug.Log("pickup");
+                        //Debug.Log("pickup");
                     }
                 }
-               
-            
+
+            } else 
+            {
+                // DROP
+                objectGrabbable.Drop();
+                objectGrabbable = null;
+            }
         }
     }
 }
