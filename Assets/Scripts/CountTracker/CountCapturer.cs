@@ -9,6 +9,7 @@ public class CountCapturer : MonoBehaviour
     void Start()
     {
         timesEntered = 0;
+        Debug.Log(timesEntered);
     }
 
     // Update is called once per frame
@@ -19,9 +20,10 @@ public class CountCapturer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "player")
+        if (other.gameObject.tag == "Player")
         {
             timesEntered = timesEntered + 1;
+            Debug.Log(timesEntered);
         }
     }
 }

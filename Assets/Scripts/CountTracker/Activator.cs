@@ -19,7 +19,7 @@ public class Activator : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "player")
+        if (other.gameObject.tag == "Player")
         {
             CountCapturer.SetActive(true);
         }
