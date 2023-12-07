@@ -2740,14 +2740,10 @@ GameObject:
   - component: {fileID: 489241499}
   - component: {fileID: 489241498}
   - component: {fileID: 489241497}
-<<<<<<< HEAD
-  - component: {fileID: 489241501}
-  m_Layer: 0
-=======
   - component: {fileID: 489241502}
   - component: {fileID: 489241501}
   m_Layer: 8
->>>>>>> 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
+ 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
   m_Name: Box100 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2831,9 +2827,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0.44, y: 244.252, z: -90}
-<<<<<<< HEAD
---- !u!65 &489241501
-=======
 --- !u!54 &489241501
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2862,7 +2855,7 @@ Rigidbody:
   m_Constraints: 72
   m_CollisionDetection: 1
 --- !u!65 &489241502
->>>>>>> 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
+ 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2881,13 +2874,10 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-<<<<<<< HEAD
-  m_Size: {x: 0.025914475, y: 0.14087711, z: 0.2149583}
-  m_Center: {x: 6.0654606e-15, y: 0.00000037625432, z: 0}
-=======
+
   m_Size: {x: 0.025914475, y: 0.1408771, z: 0.2149583}
   m_Center: {x: 0.00000005960465, y: 0.00000013783574, z: 4.107825e-15}
->>>>>>> 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
+ 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
 --- !u!43 &532383611
 Mesh:
   m_ObjectHideFlags: 0
@@ -16852,11 +16842,9 @@ GameObject:
   - component: {fileID: 574046801384095506}
   - component: {fileID: 574046801384095507}
   - component: {fileID: 574046801384095508}
-<<<<<<< HEAD
-  m_Layer: 0
-=======
+
   m_Layer: 8
->>>>>>> 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
+ 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
   m_Name: Box100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16986,13 +16974,10 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-<<<<<<< HEAD
-  m_Size: {x: 0.0259145, y: 0.14087716, z: 0.21495834}
-  m_Center: {x: 0.000000059604666, y: 0.000000078231125, z: -2.0539126e-14}
-=======
+ HEAD
   m_Size: {x: 0.025914498, y: 0.14087714, z: 0.21495831}
   m_Center: {x: 1.891846e-14, y: 0.00000013783576, z: -1.8485213e-14}
->>>>>>> 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
+ 1b8a5dda98e71bd3b2c60507678a0c2383761a7e
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
