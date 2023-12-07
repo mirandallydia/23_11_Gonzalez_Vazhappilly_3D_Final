@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11378,6 +11378,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7209219480725904584, guid: 1c162703859fc344c9d9c92868bff854,
+        type: 3}
+      propertyPath: speed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209219480725904584, guid: 1c162703859fc344c9d9c92868bff854,
+        type: 3}
+      propertyPath: jumpheight
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209219480725904584, guid: 1c162703859fc344c9d9c92868bff854,
+        type: 3}
+      propertyPath: gravityMultiplier
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 9157810133736255434, guid: 1c162703859fc344c9d9c92868bff854,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -14456,6 +14471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e3ce7e9630f7409bb660256e1e80ba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timesEntered: 0
 --- !u!64 &1887992563
 MeshCollider:
   m_ObjectHideFlags: 0
