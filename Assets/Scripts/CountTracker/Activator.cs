@@ -5,6 +5,7 @@ using UnityEngine;
 public class Activator : MonoBehaviour
 {
     public GameObject CountCapturer;
+    public GameObject Deactivator;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class Activator : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             CountCapturer.SetActive(true);
+            Deactivator.SetActive(true);
         }
     }
 }

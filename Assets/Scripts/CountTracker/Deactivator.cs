@@ -22,6 +22,7 @@ public class Deactivator : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             CountCapturer.SetActive(false);
+            gameObject.SetActive(false);
         }
     }
 }
